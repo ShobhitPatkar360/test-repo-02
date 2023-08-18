@@ -5,8 +5,8 @@ git checkout develop
 git branch -d release
 git checkout -b release
 my_time=$(date +"%d/%m/%Y_%H:%M:%S")
-echo "special commit at  $my_time" >> /home/shobhit/Desktop/sp-output.txt
-
+echo "Awesome  commit at  $my_time" >> /home/shobhit/Desktop/sp-output.txt
+echo "New release notes on $my_time" >> release_notes.txt
 git add . 
 git commit  -m "release committed on $my_time"
 

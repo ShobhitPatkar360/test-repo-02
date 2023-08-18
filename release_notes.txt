@@ -1,2 +1,3 @@
-This is the info about release
-A lot of updation has been done
+This is new release notes
+New release notes on 18/08/2023_14:39:49
+
