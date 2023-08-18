@@ -1,3 +1,7 @@
 This is the info about release
 A new feature is added on Friday
+<<<<<<< HEAD
 some changes made  on  $(date +"%d/%m/%Y_%H:%M:%S") 
+=======
+This is saturday feature
+>>>>>>> release
