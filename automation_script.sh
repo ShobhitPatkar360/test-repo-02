@@ -5,10 +5,10 @@ git checkout develop
 git branch -d release
 git checkout -b release
 my_time=$(date +"%d/%m/%Y_%H:%M:%S")
-echo "Awesome  commit at  $my_time" >> /home/shobhit/Desktop/sp-output.txt
-echo "Awesome release notes on $my_time" >> release_notes.txt
+echo "Great  commit at  $my_time" >> /home/shobhit/Desktop/sp-output.txt
+echo "Great release notes on $my_time" >> release_notes.txt
 git add . 
-git commit  -m "release committed on $my_time"
+git commit  -m "Great committed on $my_time"
 
 git checkout develop
 git merge release
